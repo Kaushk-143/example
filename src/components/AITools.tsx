@@ -33,7 +33,7 @@ const tools = [
 
 export default function AITools() {
   return (
-    <section id="ai-tools" className="min-h-screen py-20 bg-gradient-to-br from-slate-700 via-slate-600 to-slate-700 flex items-center">
+    <section id="ai-tools" className="min-h-screen py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -48,7 +48,7 @@ export default function AITools() {
           {tools.map((tool, index) => {
             const Icon = tool.icon;
             return (
-              <div key={index} className="group bg-slate-900/50 backdrop-blur-sm border border-slate-600 rounded-2xl overflow-hidden hover:border-slate-500 transition-all duration-500 hover:scale-105 hover:shadow-2xl">
+              <div key={index} className="group bg-slate-900/50 backdrop-blur-sm border border-slate-600 rounded-2xl overflow-hidden hover:border-slate-500 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25">
                 {/* Image Section */}
                 <div className="relative overflow-hidden h-48">
                   <img 

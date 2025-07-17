@@ -42,7 +42,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="min-h-screen py-20 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-800 flex items-center">
+    <section id="how-it-works" className="min-h-screen py-20 bg-gradient-to-br from-indigo-900 via-slate-800 to-slate-900 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
